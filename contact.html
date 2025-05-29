@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <section class="contact">
+        <h1>Contact Us</h1>
+        <p>We'd love to hear from you! Fill out the form below or reach us at:</p>
+        
+        <div class="contact-info">
+            <p><strong>Email:</strong> BPPS@technologies.ac.in</p>
+            <p><strong>Phone:</strong> +91 7036799524</p>
+            <p><strong>Address:</strong> 123 Jublie Hills, Hyderabad, Telangana</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" action="#" method="post">
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+            <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" required>
+            
+            <label for="gender">Gender:</label>
+            <select id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            
+            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            
+            <button type="submit">SEND</button>
+        </form>
+    </section>
+
+</body>
+</html>
